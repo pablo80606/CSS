@@ -1,0 +1,349 @@
+body {
+
+  background-color: #02010a;
+
+}
+
+header {
+  background-color: #5b7989;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  width: 900px;
+  height: 100%;
+  margin: auto;
+
+}
+
+.titulo {
+  width: 50%;
+  font-family: 'Dancing Script';
+}
+
+.titulo h1 {
+  color: white;
+  text-shadow: 2px 2px 2px #02010a;
+}
+
+.navegador {
+  width: 50%;
+}
+
+ul {
+  text-align: right;
+  list-style-type: none;
+  margin: 30px 0px;
+}
+
+li {
+  display: inline;
+  margin: 0px 15px;
+  padding: 15px 0px;
+}
+
+ul li a {
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  text-shadow: 2px 2px 2px #02010a;
+  font-family: 'Dancing Script';
+}
+
+#contenido {
+  width: 900px;
+  margin: auto;
+}
+
+#imagenCentral {
+  background-color: #82c3a6;
+  padding: 30px 0px 30px 0px;
+  width: 100%;
+
+}
+
+#paisaje1 {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+
+#imagenSecundaria {
+  background-color: #d5c75f;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+#paisaje3 {
+  width: 50%;
+  display: block;
+  margin: 20px auto;
+  border: 1px solid black;
+  transition: rota
+}
+
+#paisaje3:hover {
+  transform: rotate(10deg);
+  -webkit-filter: drop-shadow(2px 2px 2px #02010a);
+  filter: drop-shadow(2px 2px 2px #02010a);
+  border: 2px solid #82c3a6;
+}
+
+#paisaje2 {
+  width: 50%;
+  display: block;
+  margin: 20px auto;
+  border: 1px solid black;
+}
+
+#paisaje2:hover {
+  transform: translate(5px, -20px);
+  -webkit-filter: drop-shadow(2px 2px 2px #02010a);
+  filter: drop-shadow(2px 2px 2px #02010a);
+  border: 2px solid #82c3a6;
+}
+
+.contenedor1 {
+  color: #ddd;
+  background-color: #d5c75f;
+  width: 50%;
+}
+
+.contenedor2 {
+  color: #333;
+  background-color: #d5c75f;
+  width: 50%;
+}
+
+footer{
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  width: 900px;
+  background-color:  #C6d5c5;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+
+}
+
+footer  ul {
+
+  font-family: 'Dancing Script';
+  text-align: left;
+  list-style-type: none;
+ margin: auto;
+
+}
+
+footer ul li {
+  text-align: left;
+  margin: auto;
+  padding: 15px 0px;
+}
+
+div [class*="bloque"]{
+  min-height: 200px;
+  flex: 1 2 32%;
+}
+
+div [class*="Paisaje"]{
+display: block;
+margin: 8px 15px;
+width: 90%;
+}
+
+.Paisaje1{
+  -webkit-filter: blur(10px);
+}
+
+.Paisaje2 {
+  -webkit-filter: grayscale(100%);
+}
+
+.Paisaje3 {
+  -webkit-filter: sepia(90%);
+}
+
+.Paisaje4 {
+  -webkit-filter: grayscale(100%);
+}
+
+.Paisaje6 {
+  -webkit-filter: grayscale(100%);
+}
+
+.BloqueFotos{
+  background-color: #d5c75f;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+
+@media all and (max-width: 500px) {
+  .contenedor1 {
+    width: 100%;
+  }
+
+  .contenedor2 {
+    width: 100%;
+  }
+
+  .titulo {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navegador {
+    width: 100%;
+  }
+
+  .listNavegador {
+    text-align: center;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  #contenido {
+    width: 100%;
+  }
+
+  footer{
+    width: 100%;
+  }
+
+  .derechos{
+    width: 100%;
+  }
+
+  .contacto{
+    width: 100%;
+  }
+
+  .redesSociales{
+    width: 100%;
+  }
+
+  .terminos{
+    width: 100%;
+  }
+
+  .BloqueFotos{
+    width: 100%;
+  }
+
+  div [class*="bloque"]{
+    min-height: 200px;
+    flex: 1 2 100%;
+  }
+}
+
+@media all and (max-width: 900px) and (min-width: 500px) {
+  .contenedor1 {
+    width: 100%;
+  }
+
+  .contenedor2 {
+    width: 100%;
+  }
+
+  .titulo {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navegador {
+    width: 100%;
+  }
+
+  .listNavegador {
+    text-align: center;
+  }
+
+  .derechos{
+    width: 100%;
+  }
+
+  .contacto{
+    width: 100%;
+  }
+
+  .redesSociales{
+    width: 100%;
+  }
+
+  .terminos{
+    width: 100%;
+  }
+
+  footer{
+    width: 100%;
+  }
+
+  .BloqueFotos{
+    width: 100%;
+  }
+
+  div [class*="bloque"]{
+    min-height: 200px;
+    flex: 1 2 100%;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .contenedor1 {
+    width: 100%;
+  }
+
+  .contenedor2 {
+    width: 100%;
+  }
+
+  .titulo {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navegador {
+    width: 100%;
+  }
+
+  .listNavegador {
+    margin: 0px 0px 0px -30px;
+    text-align: center;
+  }
+
+  .derechos{
+    width: 100%;
+  }
+
+  .contacto{
+    width: 100%;
+  }
+
+  .redesSociales{
+    width: 100%;
+  }
+
+  .terminos{
+    width: 100%;
+  }
+
+  footer{
+    width: 100%;
+  }
+  .BloqueFotos{
+    width: 100%;
+  }
+
+  div [class*="bloque"]{
+    min-height: 200px;
+    flex: 1 2 100%;
+  }
+
+}

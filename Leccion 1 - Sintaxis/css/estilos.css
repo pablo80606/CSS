@@ -1,0 +1,22 @@
+body p{
+color: green;
+} 
+
+body{
+	background-color: black;
+	color: red;  !important
+	font-family: Verdana;
+}
+
+h1 {
+	font-family: Arial;
+}
+
+a {
+	color: blue;
+}
+
+div{
+	margin-top: 10px;
+	margin-left: 20px;
+}
